@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/imagens/mk-logo.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <title>Mortal Kombat XI</title>
+</head>
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/mortal-kombat-gaming-wallpaper.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/mk-logo.png" alt="logoMk">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/mk-titulo-removebg-preview2.png">
+            <p class="descricao">
+                Após 27 anos, Mortal Kombat 11 eleva o seu próprio patamar sanguinário e traz um game de luta brutal, mas versátil, altamente customizável e bem amigável com novatos em jogos de luta. Além, é claro, do delicioso humor negro, misturado a sangue e tripas, tão icônico da série. Fico imaginando de onde os desenvolvedores tiram inspiração para tão rica combinação de detalhes ao se finalizar um oponente da forma mais cruel possível.
+            </p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div>
+
+        <img class="scorpion" src="./src/imagens/Mortal-Kombat-Game-PNG-HD-Image.png">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Cwofr3L_vIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
